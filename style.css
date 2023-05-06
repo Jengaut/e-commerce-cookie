@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+body {
+  background: #008b8b;
+  color: white;
+  margin-top: 30px;
+}
+
+.product img {
+  aspect-ratio: 1 / 1;
+  width: 70%;
+  object-fit: contain;
+}
+
+.col-md-4 input[name="add_to_cart"] {
+  border: none;
+  border-radius: .5rem;
+  padding: 2px 4px;
+  color: white;
+  background-color: #00000093;
+}
+
+input[type="number"] {
+  border: none;
+  padding: 2px;
+  color: #222;
+  text-align: center;
+  width: 8rem;
+}
+
+.col-md-4 {
+  margin-bottom: 4rem;
+}
+
+heather {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+heather #img img {
+  background-color: #ffffff98;
+  border-radius: 50%;
+  width: 100%;
+  height: 70px;
+}
+
+heather h1 {
+  padding-left: 3rem;
+}
+
+main {
+  padding: 5rem 0;
+}
+
+.produits {
+  margin: 0;
+  padding-bottom: 5rem;
+}
+
+.commande {
+  border-top: 1rem solid white;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.navigation ul li a {
+  padding: 1rem;
+  color: white;
+  background-color: #3531319a;
+  text-decoration: none;
+  list-style: none;
+  margin-left: -5rem;
+  margin-bottom: 4rem;
+  border-radius: .5rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.navigation a:before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #008b8b;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navigation a:hover {
+  margin: 0;
+  transform: scale(1.1);
+}
+
+.vider {
+  color: white;
+  background-color: rgba(8, 248, 156, 0.821);
+  text-decoration: none;
+  list-style: none;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.effacer {
+  color: white;
+  text-decoration: underline;
+  list-style: none;
+  padding: .1rem;
+}
+
+.message {
+  padding: 5rem 0;
+}
+
+.ajout {
+  width: 2rem;
+}
+
+.total input[name="update"] {
+  color: rgb(75, 0, 0);
+  background-color: rgba(255, 255, 255, 0.369);
+  text-decoration: none;
+  list-style: none;
+  padding: .1rem 2rem;
+  border-radius: .5rem 2rem;
+  border: none;
+}
+
+
+
+/* footer */
+footer {
+  border-top: 1rem solid white;
+  margin: 0;
+  padding: 2rem 3rem;
+  color: white;
+}
+
+.page {
+  padding: 1rem 1rem;
+  margin-top: 0;
+}
+
+.info-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.page .image-cropper {
+  border: 0.5rem solid #ffffff;
+  width: 160px;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.page .moi {
+  display: inline;
+  margin: 0 auto;
+  margin-top: -30%;
+  margin-left: -10%;
+  height: 200%;
+  width: auto;
+}
+
+.info {
+  padding: 0 3rem;
+}
+
+.button img {
+  height: 50px;
+  display: block;
+  margin: 2rem;
+}
